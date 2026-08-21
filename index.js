@@ -1985,7 +1985,7 @@ var developer = {
           title: "Developer Information",
           description: `Titan Labs is a purpose-built moderation and community engine.
 ${DIVIDER}`,
-          color: THEME.accent,
+          color:1d1d1d
           fields: [
             { name: "Owner(s)", value: visibleOwnerIds.map((id) => `<@${id}>`).join(", ") || "Unknown" },
             { name: "Developers", value: developers.map((d) => `<@${d.userId}>`).join(", ") || "None added yet" },
