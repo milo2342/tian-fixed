@@ -2250,37 +2250,11 @@ var ticketPanelCommands = [ticketPanelCreate];
 var import_discord15 = require("discord.js");
 var import_drizzle_orm9 = require("drizzle-orm");
 var STORE_URL = "https://psrp.tebex.io/category/gift-cards";
-var BUNDLE_PRICE = 620;
+var BUNDLE_PRICE = 20;
 var BUNDLE_VALUE = "bundle";
 var DEFAULT_VEHICLE_KEYS = [
-  { name: "1967 Dominator Fastback", price: 20 },
-  { name: "1970 Bravado Gauntlet", price: 20 },
-  { name: "1985 Declasse Yosemite", price: 20 },
-  { name: "2025 Declasse Yosemite 2500", price: 20 },
-  { name: "1985 Declasse Impaler", price: 20 },
-  { name: "1986 Declasse Yosemite 3500", price: 20 },
-  { name: "1970 Declasse Tulip", price: 20 },
-  { name: "2020 Declasse Alamo", price: 20 },
-  { name: "2025 Declasse Alamo", price: 20 },
-  { name: "2024 Bravado Bison", price: 20 },
-  { name: "Vapid Torrence", price: 20 },
-  { name: "2020 Declasse Granger", price: 20 },
-  { name: "1972 Declasse Vigero", price: 20 },
-  { name: "Vapid Dominator GT DCL", price: 20 },
-  { name: "MRAP", price: 35 },
-  { name: "The Beast", price: 35 },
-  { name: "1995 Custom Bison G2", price: 20 },
-  { name: "Humvee", price: 20 },
-  { name: "Golf Cart", price: 20 },
-  { name: "Phoenix SW6", price: 20 },
-  { name: "Vapid Sentinel Interceptor", price: 20 },
-  { name: "Vapid Ranger PPV", price: 20 },
-  { name: "2010 Bravado Buffalo", price: 20 },
-  { name: "1968 Imponte Dukes", price: 20 },
-  { name: "Coquette C7 Terminator", price: 20 },
-  { name: "Coquette C7 Interceptor", price: 20 },
-  { name: "Harley", price: 4 },
-  { name: "Cannis Griffon", price: 20 }
+  { name: "drag Car", price: 20 },
+ 
 ];
 async function ensureSeeded(guildId2) {
   const existing = await db.query.discordVehicleKeysTable.findFirst({ where: (0, import_drizzle_orm9.eq)(discordVehicleKeysTable.guildId, guildId2) });
