@@ -2323,7 +2323,7 @@ var path_key_catalog = require("path");
 var STORE_URL = "https://psrp.tebex.io/category/gift-cards";
 var KEY_CATALOG_FILE = path_key_catalog.join(process.cwd(), "vehicle-keys.json");
 var DEFAULT_KEY_CATALOG = [
-  { name: "Drag vehicle", price: 20, description: "Drag vehicle" Email: "PLACE HOLDER"}
+  { name: "Drag vehicle", price: 20, description: "Drag vehicle" Email: "PLACE HOLDER" }
 ];
 function readKeyCatalog() {
   try {
