@@ -2780,7 +2780,7 @@ var STORE_URL = "https://psrp.tebex.io/category/gift-cards";
 var GIFTCARD_EMAIL = "tyrone.psrp@gmail.com";
 var KEY_CATALOG_FILE = path_key_catalog.join(process.cwd(), "vehicle-keys.json");
 var DEFAULT_KEY_CATALOG = [
-  { name: "Drag vehicle", price: 20, description: "Drag vehicle" }
+  { name: "Mercedes S500 Mansory", price: 5, description: "Good Handling, Amazing Sound, Mph-200" }
 ];
 function readKeyCatalog() {
   try {
