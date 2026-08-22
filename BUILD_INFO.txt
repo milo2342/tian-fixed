@@ -1,2 +1,0 @@
-Titan Labs consolidated build
-Includes keys, TOS, tickets, server logging, auto-role, welcome, /test, key notifications, Gmail Tebex payment watcher.
